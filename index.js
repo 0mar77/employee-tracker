@@ -1,3 +1,6 @@
-const mysql = require('mysql2');
-const inquirer = require('inquirer');
-const consoleTable = require('console.table')
+// Creates a new command line
+const CLI = require('./cli')
+const cli = new CLI();
+
+// Starts the app
+cli.start();
